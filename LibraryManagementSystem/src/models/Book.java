@@ -15,4 +15,11 @@ public class Book{
         this.bookGenre = genre;
         this.isBookAvailable = true;
     }
+    public void borrowBook() {this.isBookAvailable = false;}
+    public void returnBook() {this.isBookAvailable = true;}
+
+    public String toString()
+    {
+        return bookId + "-" + bookTitle + " by " + bookAuthor + " [ " + (isBookAvailable ? "Available" : "Borrowed") + " ] ";
+    }
 }
