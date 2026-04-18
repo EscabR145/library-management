@@ -22,7 +22,7 @@ public class Book{
     public String getTitle() {return this.bookTitle;}
     public String getAuthor() {return this.bookAuthor;}
     public String getGenre() {return this.bookGenre;}
-    public boolean getAvail() {return this.isBookAvailable;}
+    public String getAvail() {return this.isBookAvailable ? "Available" : "Borrowed";}
 
     public String toString()
     {

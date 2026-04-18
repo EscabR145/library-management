@@ -1,4 +1,5 @@
-0010,Brave New World,Aldous Huxley,Science Fiction,true
-3950,Fahrenheit 451,Ray Bradbury,Dystopian,false
-8498,Strangers: A Memoir of Marriage,Belle Burden,Romance,true
-3492,The Silent Patient,Alex Michaelides,Thriller,true
+3950,Fahrenheit 451,Ray Bradbury,Dystopian,Available
+8498,Strangers: A Memoir of Marriage,Belle Burden,Romance,Available
+3492,The Silent Patient,Alex Michaelides,Thriller,Available
+5534,Hello Testingg,Marcus Cox,GoodQuestion,Available
+0100,Brave New World,Aldous Huxley,Science Fiction/Dystopian,Available

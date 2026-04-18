@@ -11,6 +11,9 @@ public class Borrower{
         this.borrowerId = id;
         this.borrowerEmail = email;
     }
+    public String getID() {return this.borrowerId;}
+    public String getName() {return this.borrowerName;}
+    public String getEmail() {return this.borrowerEmail;}
 
     public String toString()
     {

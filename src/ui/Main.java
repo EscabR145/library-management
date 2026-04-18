@@ -1,5 +1,4 @@
 package ui;
-import models.Book;
 import services.LibraryService;
 
 public class Main {
@@ -10,15 +9,18 @@ public class Main {
         libraryService.loadFromFiles();
         System.out.println(libraryService.getBookList().toString());
 
-        //Test Adding Books
-        Book bookToAdd = new Book("3492","The Silent Patient", "Alex Michaelides", "Thriller");
+        /*Test Adding Books
+        Book bookToAdd = new Book("5534","Hello Testingg", "Marcus Cox", "GoodQuestion");
         libraryService.addBook(bookToAdd);
-        System.out.println(libraryService.getBookList().toString());
+        System.out.println(libraryService.getBookList().toString()); */
 
-        //Test Changing Books
-        Book bookToChange = libraryService.getBookList().get(1);
+        /*Test Changing Books
+        Book bookToChange = libraryService.searchBook("0010");
         Book editedBook = new Book("0100", "Brave New World", "Aldous Huxley", "Science Fiction/Dystopian");
-        libraryService.editBook(bookToChange, editedBook);
+        libraryService.editBook(bookToChange, editedBook); */
+
+        //Test Registering Borrower
+        
         
         
 
