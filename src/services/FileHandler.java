@@ -47,7 +47,7 @@ public class FileHandler {
             while((line = br.readLine()) != null)
             {
                 String[] borrowerData = line.split(",");
-                if(borrowerData.length == 5)
+                if(borrowerData.length == 3)
                 {
                     Borrower borrower = new Borrower(borrowerData[0], borrowerData[1], borrowerData[2]);
                     borrowerList.add(borrower);

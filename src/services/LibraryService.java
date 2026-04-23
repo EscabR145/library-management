@@ -91,7 +91,7 @@ public class LibraryService{
 
         //Rebuild the Hashmap
         bookMap.clear();
-        borrowerList.clear();
+        borrowerMap.clear();
         for(Book book : bookList)
         {
             bookMap.put(book.getID(), book);
