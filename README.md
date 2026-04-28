@@ -17,7 +17,3 @@ Authors:
 Marcus Cox
 Student
 Texas A&M University - Central Texas
-
-Jeremy Carrera
-Student
-Texas A&M University - Central Texas
