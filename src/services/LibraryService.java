@@ -105,6 +105,10 @@ public class LibraryService{
     {
         return bookList;
     }
+    public ArrayList<Borrower> getBorrowerList()
+    {
+        return borrowerList;
+    }
 
 
 }
